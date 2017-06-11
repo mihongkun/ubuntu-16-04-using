@@ -23,3 +23,17 @@
 * 将浏览器下载到本地之后通过命令-->$sudo dpkg -i file_name，这里的file_name替换为chrome安装文件所在路径
 * 一般会安装失败，这个时候再在命令行中执行下面命令即可安装成功:$sudo apt install -f -y
 * 安装完成之后就可以在Application中查找到chrome浏览器的启动图标了
+
+#### 5.安装常用常用软件
+* 安装搜狗拼音输入法，下载安装，配置，重启，选在搜狗输入法为第一个 地址(可能会有变化):http://pinyin.sogou.com/linux/download.php?f=linux&bit=64
+* atom的安装: https://atom.io/download/deb
+* sublime text安装：https://download.sublimetext.com/sublime_text_3_build_3126_x64.tar.bz2
+* vsc 安装: https://code.visualstudio.com/docs/?dv=linux64_deb
+
+
+#### 6.下载并安装jdk
+* http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+* sudo su 
+* mkdir /usr/lib/jvm
+* tar -C /usr/lib/jvm -zxf file_name ,这里的file_name指代是压缩文件
+
