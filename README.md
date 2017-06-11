@@ -37,9 +37,11 @@
 * #mkdir /usr/lib/jvm
 * #tar -C /usr/lib/jvm -zxf file_name ,这里的file_name指代是压缩文件tar -v会输出解压过程所以略过不用
 * #vim /etc/profile 在最后添加:
+```shell
     # SET ORACLE JDK ENVIRONMENT
     export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_131
     export JRE_HOME=${JAVA_HOME}/jre
     export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/bin
     export PATH=${JAVA_HOME}/bin:$PATH 
+```
 
