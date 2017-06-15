@@ -5,7 +5,7 @@
 ### learn using Ubuntu build a learning platform
 
 #### 1.安装Ubuntu(此步骤对于我非常简单略过)
-#### 1.更换源
+#### 2.更换源 sudo gedit /etc/apt/source.list
 ```
 #原有
 #deb cdrom:[Ubuntu 16.04.2 LTS _Xenial Xerus_ - Release amd64 (20170215.2)]/ xenial main restricted
